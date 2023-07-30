@@ -14,8 +14,6 @@ const i18nPlugin = () => {
     locale: _localLang || defaultLang,
     fallbackLocale: 'en-US',
     messages: messages,
-    silentTranslationWarn: true,
-    globalInjection: true, 
     dateTimeFormats: {
       'en-US': {
         short: {
